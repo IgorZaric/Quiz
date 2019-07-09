@@ -35,4 +35,18 @@ form.addEventListener("submit", e => {
       output++;
     }
   }, 10);
+  
+  if (score < 50) {
+    result.classList.remove("green");
+    result.classList.remove("yellow");
+    result.classList.add("red");
+  } else if (score >= 50 && score < 100) {
+    result.classList.remove("green");
+    result.classList.remove("red");
+    result.classList.add("yellow");
+  } else {
+    result.classList.remove("red");
+    result.classList.remove("yellow");
+    result.classList.add("green");
+  }
 });
