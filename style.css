@@ -86,3 +86,16 @@ h2 {
 .d-none {
   display: none;
 }
+
+.red {
+  color: red;
+}
+
+.yellow {
+  color: yellow;
+}
+
+.green {
+  color: green;
+}
+
